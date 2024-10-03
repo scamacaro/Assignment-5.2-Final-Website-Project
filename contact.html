@@ -1,0 +1,76 @@
+<!-- Specifies the document type and version of HTML being used -->
+<!DOCTYPE html>
+
+<!-- Opens the HTML document, specifying English as the language -->
+<html lang="en">
+
+<head> <!-- Metadata about the document goes here -->
+
+    <meta charset="UTF-8"> <!-- Sets the character encoding for the document to UTF-8 -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures responsive design on mobile devices -->
+
+    <title>Contact Me</title> <!-- Sets the title of the document, displayed in the browser tab -->
+
+    <link rel="stylesheet" href="styles.css"> <!-- Links to the external CSS file for styling the webpage -->
+</head>
+
+<body>
+    <header>
+        <nav> <!-- Navigation section for linking to different pages -->
+
+            <ul> <!-- Unordered list for navigation links -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="title"> <!-- Section for the title of the contact page -->
+
+        <h2>Contact Me</h2>
+    </section>
+
+    <section class="contact-form"> <!-- Section containing the contact form for user inquiries -->
+
+        <h3>Get in Touch</h3>
+
+        <form> <!-- Starts the contact form for users to fill out -->
+            
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your name">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Your email">
+
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Your message"></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- New Email Section -->
+    <section class="email-contact">
+        <h3>Contact via Email</h3>
+        <p>If you prefer, you can also reach me via email at: 
+            <a href="mailto:sancamac@uat.edu">sancamac@uat.edu</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; Copyright © 2024 Vans_Cmkro - All Rights Reserved.</p>
+        <div class="social-icons"> <!-- Section for social media links -->
+
+            <a href="https://www.amazon.com/stores/Sanyerlis-Vanessa-Camacaro/author/B0DJ67GQ1L?ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true" target="_blank">Amazon</a>
+            <a href="https://x.com/Vans_Cmkro" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com/vans_cmkro/?hl=en" target="_blank">Instagram</a>
+
+        </div>
+    </footer>
+</body>
+
+</html>

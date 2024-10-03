@@ -1,0 +1,164 @@
+<!-- Specifies the document type and version of HTML being used -->
+<!DOCTYPE html>
+
+<!-- Opens the HTML document, specifying English as the language -->
+<html lang="en">
+
+<head> <!-- Metadata about the document goes here -->
+
+    <meta charset="UTF-8"> <!-- Sets the character encoding for the document to UTF-8 -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures responsive design on mobile devices -->
+
+    <title>Products</title> <!-- Sets the title of the document, displayed in the browser tab -->
+
+    <link rel="stylesheet" href="styles.css"> <!-- Links to the external CSS file for styling the webpage -->
+
+    <style>
+        .product-list {
+            display: flex; 
+            flex-direction: column; /* Stack items vertically */
+            align-items: center; /* Center items horizontally */
+        }
+
+        .product-item {
+            display: flex; /* Flexbox for image and description */
+            align-items: center; /* Center items vertically */
+            margin-bottom: 20px; /* Space between items */
+            text-align: left; /* Align text to the left */
+            max-width: 600px; /* Limit the max width for better alignment */
+            width: 100%; /* Full width of the parent */
+        }
+
+        .product-item img {
+            max-width: 150px; /* Fixed width for images */
+            height: auto; /* Maintain aspect ratio */
+            margin-right: 20px; /* Space between image and description */
+        }
+
+        .product-item p {
+            margin: 0; /* Remove default margin */
+        }
+    </style>
+</head>
+
+<body> <!-- Body section contains the visible content of the webpage -->
+
+    <header> <!-- Header section for navigation links -->
+
+        <nav> <!-- Navigation section for linking to different pages -->
+
+            <ul> <!-- Unordered list for navigation links -->
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="title"> <!-- Section for the page title -->
+
+        <h2>Our Products</h2>
+
+    </section>
+
+    <section class="product-list"> <!-- Section to display the list of products -->
+
+        <div class="product-item">
+
+            <!-- Wrap the image with an <a> tag -->
+
+            <a href="https://www.amazon.com/Halloween-Coloring-Book-Spooky-Fun/dp/B0DH82222G?ref_=ast_author_mpb" target="_blank">
+                <img src="spookyfun.JPG" alt="Spooky Fun Halloween Coloring Book">
+
+            </a>
+        
+            <div>
+
+                <p>Spooky Fun: Halloween Coloring Book</p>
+                <br>
+                <p>Get ready for a spooktacular adventure with "Spooky Fun", a Halloween-themed coloring book featuring 70 spooky and fun pages perfect for kids and adults alike! Dive into a world filled with adorable ghosts, charming witches, mischievous pumpkins, and more creepy-cute characters.</p>
+                <br>
+                <p>Each page is designed to spark creativity and Halloween spirit, making it the perfect activity for this haunting season. Whether you prefer using crayons, markers, or colored pencils, these illustrations are sure to bring hours of coloring enjoyment.</p>
+                <br>
+                <a href="https://www.amazon.com/Halloween-Coloring-Book-Spooky-Fun/dp/B0DH82222G?ref_=ast_author_mpb" class="btn">Available On Amazon</a>
+
+            </div>
+        </div>
+        
+
+        <div class="product-item"> <!-- Container for the second product item -->
+
+            <!-- Wrap the image with an <a> tag -->
+
+            <a href="https://www.amazon.com/stores/Sanyerlis-Vanessa-Camacaro/author/B0DJ67GQ1L?ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true" target="_blank">
+                
+                <img src="thanksgiving.PNG" alt="Family Fun: Thanksgiving Coloring Book">
+            </a>
+        
+            <div>
+
+                <p>Family Fun: Thanksgiving Coloring Book</p>
+
+                <br>
+
+                <p>Get ready for a festive feast of fun with "Family Fun", a Thanksgiving-themed coloring book featuring 70 delightful pages perfect for kids and adults alike! Dive into a world filled with adorable turkeys, bountiful harvests, cheerful pilgrims, and more heartwarming characters.</p>
+                
+                <br>
+                
+                <p>Each page is designed to inspire gratitude and creativity, making it the perfect activity for the holiday season. Whether you prefer using crayons, markers, or colored pencils, these illustrations are sure to bring hours of coloring joy to your Thanksgiving celebrations.</p>
+                
+                <br>
+                
+                <a href="https://www.amazon.com/stores/Sanyerlis-Vanessa-Camacaro/author/B0DJ67GQ1L?ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true" class="btn">Coming Soon To Amazon</a>
+            </div>
+        </div>
+        
+        <div class="product-item"> <!-- Container for the third product item -->
+
+            <!-- Wrap the image with an <a> tag -->
+
+            <a href="https://www.amazon.com/Christmas-Coloring-Book-Jolly-Fun/dp/B0DJBV4CV5/ref=sr_1_2?crid=2LP1H9I49WNWZ&dib=eyJ2IjoiMSJ9.R1wuhMXq1EtBzMkFMV_gfRFy9DdKcKjXHqbC06QPfMM.j-CjNw46gMU3hA9mWO4nQrj63JKE_nYsbJior3g0-ns&dib_tag=se&keywords=vanessa+camacaro&qid=1727907718&s=digital-text&sprefix=vanessacamacaro%2Cdigital-text%2C145&sr=1-2" target="_blank">
+                
+                <img src="christmas.JPG" alt="Jolly Fun: Christmas Coloring Book">
+            </a>
+        
+            <div>
+
+                <p>Jolly Fun: Christmas Coloring Book</p>
+
+                <br>
+
+                <p>Get ready for a festive celebration with “Jolly Fun,” a Christmas-themed coloring book featuring 70 cheerful and festive pages perfect for kids and adults alike! Dive into a world filled with playful reindeer, joyful snowmen, twinkling Christmas trees, and more holiday magic.</p>
+                
+                <br>
+                
+                <p>Each page is designed to spark creativity and create Christmas spirit, making it the perfect activity for this merry season. Whether you prefer using crayons, colored pencils, or markers, these illustrations are sure to bring hours of coloring enjoyment.</p>
+                
+                <br>
+                
+                <a href="https://www.amazon.com/Christmas-Coloring-Book-Jolly-Fun/dp/B0DJBV4CV5/ref=sr_1_2?crid=2LP1H9I49WNWZ&dib=eyJ2IjoiMSJ9.R1wuhMXq1EtBzMkFMV_gfRFy9DdKcKjXHqbC06QPfMM.j-CjNw46gMU3hA9mWO4nQrj63JKE_nYsbJior3g0-ns&dib_tag=se&keywords=vanessa+camacaro&qid=1727907718&s=digital-text&sprefix=vanessacamacaro%2Cdigital-text%2C145&sr=1-2" class="btn">Available On Amazon</a>
+            </div>
+        </div>
+        
+    </section> 
+        
+    <!-- Footer Section -->
+    <footer>
+
+        <p>&copy; Copyright © 2024 Vans_Cmkro - All Rights Reserved.</p>
+
+        <div class="social-icons"> <!-- Section for social media links -->
+
+            <a href="https://www.amazon.com/stores/Sanyerlis-Vanessa-Camacaro/author/B0DJ67GQ1L?ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true" target="_blank">Amazon</a>
+            <a href="https://x.com/Vans_Cmkro" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com/vans_cmkro/?hl=en" target="_blank">Instagram</a>
+            
+        </div>
+    </footer>
+</body>
+
+</html>
